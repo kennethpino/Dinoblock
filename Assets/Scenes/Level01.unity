@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 217418587}
   - component: {fileID: 217418588}
   m_Layer: 0
-  m_Name: Block Square
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,8 +212,10 @@ GameObject:
   m_Component:
   - component: {fileID: 523925677}
   - component: {fileID: 523925678}
+  - component: {fileID: 523925680}
+  - component: {fileID: 523925679}
   m_Layer: 0
-  m_Name: ball3
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -227,7 +229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523925676}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 47.329815, y: -460.0578, z: 0}
+  m_LocalPosition: {x: 357, y: 573, z: 0}
   m_LocalScale: {x: 120.131134, y: 120.131134, z: 120.131134}
   m_Children: []
   m_Father: {fileID: 1910406139}
@@ -283,6 +285,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &523925679
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523925676}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.005, y: 0.01}
+  serializedVersion: 2
+  m_Radius: 0.21
+--- !u!50 &523925680
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523925676}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &545309866
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510714099}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.241745, y: -652.9811, z: 0}
+  m_LocalPosition: {x: 679, y: -683, z: 0}
   m_LocalScale: {x: 120.131134, y: 120.131134, z: 120.131134}
   m_Children: []
   m_Father: {fileID: 1910406139}
@@ -670,7 +709,7 @@ GameObject:
   - component: {fileID: 1993453495}
   - component: {fileID: 1993453496}
   m_Layer: 0
-  m_Name: Blue Rocket Background
+  m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
